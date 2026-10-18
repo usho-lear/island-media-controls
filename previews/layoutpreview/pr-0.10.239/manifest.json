@@ -1,0 +1,54 @@
+[
+  {
+    "inputFps": 25,
+    "width": 720,
+    "file": "liquid-glass-fullsize-dark.gif",
+    "sha256": "4666fb2bddc48172b6ac3b5ca2c43898e7e9c6a8de6811a3f8677e5e703647af",
+    "seconds": 35,
+    "bytes": 19774868,
+    "quality": 100,
+    "lossyQuality": 90,
+    "encoder": "gifski 1.34.0",
+    "height": 860,
+    "motionQuality": 80
+  },
+  {
+    "inputFps": 25,
+    "width": 720,
+    "file": "liquid-glass-fullsize-light.gif",
+    "sha256": "4b236f7ffe8faaa30277e26641eaa26b733947caf5d836fa450ee05d24cd6207",
+    "seconds": 35,
+    "bytes": 18147180,
+    "quality": 100,
+    "lossyQuality": 90,
+    "encoder": "gifski 1.34.0",
+    "height": 860,
+    "motionQuality": 80
+  },
+  {
+    "inputFps": 25,
+    "width": 720,
+    "file": "transparent-borderless-fullsize-dark.gif",
+    "sha256": "080e02af8cbab5a3eab268ae5ad59a9459d6b64b3e7d31643ea25fd4a21cbba0",
+    "seconds": 35,
+    "bytes": 18546434,
+    "quality": 100,
+    "lossyQuality": 90,
+    "encoder": "gifski 1.34.0",
+    "height": 860,
+    "motionQuality": 80
+  },
+  {
+    "inputFps": 25,
+    "width": 720,
+    "file": "transparent-borderless-fullsize-light.gif",
+    "sha256": "c1920bea379b666744c6c5572de9d3df1c1ae3732b8206f592155575e6545bfc",
+    "seconds": 35,
+    "bytes": 19922922,
+    "quality": 100,
+    "lossyQuality": 90,
+    "encoder": "gifski 1.34.0",
+    "height": 860,
+    "motionQuality": 80
+  }
+]
