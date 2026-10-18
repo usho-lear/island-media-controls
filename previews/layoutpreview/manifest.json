@@ -1,0 +1,146 @@
+[
+  {
+    "file": "liquid-glass-compact-dark.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 17003125,
+    "sha256": "e0b0bda81462396240a225b0a99326e8fd302958224913b09294dcb003e50dda"
+  },
+  {
+    "file": "liquid-glass-compact-light.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 14091774,
+    "sha256": "9b2191216fee4e821a3e1c9c015a3e9fe1619055ae684c10dd161836f0683ba4"
+  },
+  {
+    "file": "liquid-glass-fullsize-dark.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 27841217,
+    "sha256": "fca527860cf57d1f434e230b8b7c4f7ec9796127a76cdb4d63589424733c5623"
+  },
+  {
+    "file": "liquid-glass-fullsize-light.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 26108730,
+    "sha256": "67a262a518ba184c08a40b80ea1713e788fe8ae01c087ea75bd464a0c65a86e9"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-dark.gif",
+    "width": 1200,
+    "height": 144,
+    "seconds": 35,
+    "bytes": 3667318,
+    "sha256": "a63a7b39b3a6e08d9974ddee363cce6c15faa2c0734b8a114010e1e02ea1bdb1"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-left-dark.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 10302004,
+    "sha256": "16df9f6a28c6118055bf59e4cb1e583a8e4b5279cf09f5043575bf01e01f707b"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-left-light.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 10427501,
+    "sha256": "37e144c83fc5db7303b9135eb0c3cb818d8c55aedc1121cb19f44c1eb8e1d078"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-light.gif",
+    "width": 1200,
+    "height": 144,
+    "seconds": 35,
+    "bytes": 2676420,
+    "sha256": "c39d72fbb75638bbe663079056030967aab4a13153c7fdc5204be5b480aa5ae0"
+  },
+  {
+    "file": "transparent-borderless-compact-dark.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 16395552,
+    "sha256": "53ddac3a11cf50bd194e22fe7f509de339c0199c473d8e8d052af4655fe8db99"
+  },
+  {
+    "file": "transparent-borderless-compact-light.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 23593832,
+    "sha256": "2f0355438593bb4ecf98032691054bb766b626bade6c390114e2a88ec1adfc94"
+  },
+  {
+    "file": "transparent-borderless-fullsize-dark.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 27253998,
+    "sha256": "c26755558d847efc27b2d18dc67cdfefc997e6a014e11894e7fdeef2988c142c"
+  },
+  {
+    "file": "transparent-borderless-fullsize-light.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 31526297,
+    "sha256": "707d7c7fdf1a3e626b1260ee26e315ca885619dc5bff5782e71a027da6432c5c"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-dark.gif",
+    "width": 1200,
+    "height": 144,
+    "seconds": 35,
+    "bytes": 4172482,
+    "sha256": "1cc4b9ac497ada617661937d4f5bc7d228fcff40aed678f77041dfbad21bd844"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-left-dark.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 10095988,
+    "sha256": "ec374d4f96ae4e5fad959d0eddc808705021d1fb1643aaded68929c59bbf63bf"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-left-light.gif",
+    "width": 1200,
+    "height": 960,
+    "seconds": 35,
+    "bytes": 9603267,
+    "sha256": "4a7ab7bf9bfbb949b8da1442504bc82bc0684c2284497478222b956f4950b31d"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-light.gif",
+    "width": 1200,
+    "height": 144,
+    "seconds": 35,
+    "bytes": 3411500,
+    "sha256": "9c320b9692b423b170e703b187788eabaee963be283c864022054825d3b67078"
+  },
+  {
+    "file": "transparent-taskbar-bordered-dark.gif",
+    "width": 1200,
+    "height": 144,
+    "seconds": 35,
+    "bytes": 2450833,
+    "sha256": "d0bc1edce2b4774ccfd037ce61e53fd546c116850cd2c6c4c25114179836b0ee"
+  },
+  {
+    "file": "transparent-taskbar-borderless-dark.gif",
+    "width": 1200,
+    "height": 144,
+    "seconds": 35,
+    "bytes": 2076093,
+    "sha256": "df9f44b86528165cbddd1fcc8b7653db1122b063752986b6831397fdae748dbe"
+  }
+]
