@@ -1,0 +1,66 @@
+[
+  {
+    "file": "compact-dark.gif",
+    "width": 1200,
+    "height": 480,
+    "duration": 35,
+    "sha256": "18BD0519ADAFEF20BB1A8071617B219062FEB2BA2E57F527618A740DA91ED5CC",
+    "bytes": 10889000
+  },
+  {
+    "file": "compact-light.gif",
+    "width": 1200,
+    "height": 480,
+    "duration": 35,
+    "sha256": "31A7143F6D351AFC697C4138F4939F9D37028E6403218CCD69A83D2CAB3A427B",
+    "bytes": 12164090
+  },
+  {
+    "file": "fullsize-dark.gif",
+    "width": 1200,
+    "height": 480,
+    "duration": 35,
+    "sha256": "130451D07E1BC16ABC2E5FDFFC1D3854059964A06081A66811A6D3332455C2F6",
+    "bytes": 16958933
+  },
+  {
+    "file": "fullsize-light.gif",
+    "width": 1200,
+    "height": 480,
+    "duration": 35,
+    "sha256": "A72300FCB35C6FD74CFDEBF02B5DDD067AD0A588CF0FA6668B355A1E709E479C",
+    "bytes": 18023969
+  },
+  {
+    "file": "sideexpansion-dark.gif",
+    "width": 1200,
+    "height": 72,
+    "duration": 35,
+    "sha256": "31343048A4AE398B1E9004715E7976BF7BA8EE2363745046748B343EF99BFDF0",
+    "bytes": 2597372
+  },
+  {
+    "file": "sideexpansion-left-dark.gif",
+    "width": 1200,
+    "height": 480,
+    "duration": 35,
+    "sha256": "82FDEA88BC155908DD9456635E3D5C1BEBA4E65DDC90027F19D75F81A968BFEC",
+    "bytes": 5882003
+  },
+  {
+    "file": "sideexpansion-left-light.gif",
+    "width": 1200,
+    "height": 480,
+    "duration": 35,
+    "sha256": "92D7D650DDD0D8E13809AA3C047FF4423BD36C034E20DDA1192719E3498A0E71",
+    "bytes": 5685252
+  },
+  {
+    "file": "sideexpansion-light.gif",
+    "width": 1200,
+    "height": 72,
+    "duration": 35,
+    "sha256": "F9216BB859868774792E39448F1B5A23EB835C71E12B222CC8DC9D338794360E",
+    "bytes": 2086407
+  }
+]
