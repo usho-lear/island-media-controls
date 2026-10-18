@@ -1,0 +1,72 @@
+[
+  {
+    "file": "acrylic-dark.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 254591,
+    "sha256": "78e61bcfe3212c6adbaaa5cf3339a09bc3611fd87bb85ee25a030d7090188d4a"
+  },
+  {
+    "file": "acrylic-light.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 253129,
+    "sha256": "8bbf952fc6a890a8b5df7909a7ef4897f01d9d864bd649c51761d2c9b1504225"
+  },
+  {
+    "file": "liquid-glass-dark.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 257244,
+    "sha256": "f6f90378108bda16590bedd6ef67ffb258177a7a3907375659844be88a0b8513"
+  },
+  {
+    "file": "liquid-glass-light.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 267903,
+    "sha256": "ee61a58fdaa12bbdfac32a350d51ed0b885bff5972a136199208d3c06d30dfe2"
+  },
+  {
+    "file": "mica-dark.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 253126,
+    "sha256": "96bffa2aa47b9fe880be81d3b07594623a6e2624fa84592ca571bfe8f635b3a4"
+  },
+  {
+    "file": "mica-light.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 249711,
+    "sha256": "afb0b23b1fcc61fcf4f4ee2e581b91199b920d2a8d0ae62c62b7528faf5be5a8"
+  },
+  {
+    "file": "transparent-borderless-dark.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 254018,
+    "sha256": "f3101f999c3c9f8bf0d64ecfdde63471553fd0f285589b17b1fcb12a86b76dae"
+  },
+  {
+    "file": "transparent-borderless-light.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 268793,
+    "sha256": "85fc422d7f5ab01dcfb015b74df3128679fe4f99555ef0a6734783f6f353ab24"
+  },
+  {
+    "file": "transparent-dark.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 255450,
+    "sha256": "53508df7669660cb3251309676588c70086655319b77c9b50a5663d9c3df975d"
+  },
+  {
+    "file": "transparent-light.png",
+    "width": 500,
+    "height": 598,
+    "bytes": 269946,
+    "sha256": "d4b8462652254f429e92dae1f3adf790dfbfe9951bc0de1f4e1683c00802aa96"
+  }
+]
