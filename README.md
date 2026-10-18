@@ -1,13 +1,23 @@
 # Island Media Controls
 
-> 从了解到 Windhawk，开始尝试写些 mod 来解决自己的需求，到现在短短四个月，第一个组件居然已经有了 27k 次下载。真的很感谢每一个愿意给 Island Media Controls 一次尝试，甚至选择长期使用的大家。
->
-> 这是我自己每天都在用的组件，所以更新基本都出于自己的审美和需求。有了新点子，我还会继续更新；即便不甚活跃，也会检查收件箱，接收大家的反馈。但是请务必——别再在这个素材库里提交 PR 啦！反馈请到 [Windhawk 组件主页](https://windhawk.net/mods/island-media-controls)，代码 PR 请提交到 [Windhawk 模组仓库](https://github.com/ramensoftware/windhawk-mods/pulls)。走那边的模组渠道，我会更容易看到。非常感谢啦。
-
 Bring the current media session into the Windows 11 taskbar as a compact,
 clickable island. It shows the active track, artist, artwork, playback state,
 and progress, then expands into a larger player with seek, previous,
 play/pause, and next controls.
+
+## We are hitting 30K！
+
+It has only been four months since I discovered Windhawk and started trying to write a few mods to solve little problems of my own. Somehow, my very first mod has already reached 27K downloads. A huge thank-you to everyone who has given Island Media Controls a try—and especially those who have decided to keep it around.
+
+I use this mod every day myself, so most updates really just come from my own taste and the things I want it to do. Whenever I get a new idea, I will keep working on it. I may not always be very active, but I do check my inbox and read your feedback.
+
+One small favor, though—please stop sending PRs to this media repository! Please head over to the [mod's Windhawk page](https://windhawk.net/mods/island-media-controls) for feedback, and send code PRs to the [Windhawk mods repository](https://github.com/ramensoftware/windhawk-mods/pulls). I am much more likely to see them there. Thanks again, everyone!
+
+网易云音乐的适配看来是个不小的问题。就我目前测试的情况而言，它没有通过 Windows 的系统媒体会话完整提供组件所需的信息，因此高清封面和播放进度都不方便直接获取。这里涉及的是 **系统媒体传输控件（SMTC）**，以及本组件用来读取媒体会话的 **GSMTC 接口**。目前我暂时还没有可靠的解决方案；如果有大佬了解这方面，请不吝赐教了 orz。
+
+NetEase Cloud Music compatibility is proving tricky. In my testing, it does not expose all the information this mod needs through Windows media sessions, making high-resolution artwork and playback progress difficult to retrieve directly. These sessions use **System Media Transport Controls (SMTC)**, and this mod reads them through **GSMTC**. I do not have a reliable solution yet—if you know a way to improve this integration, I would really appreciate your advice. orz
+
+**Recommended:** Update to **Windhawk 2.0 or later** to use the redesigned settings interface.
 
 ## Preview
 
@@ -15,21 +25,21 @@ Side expansion on a transparent taskbar, in dark mode. Island tint and breathing
 lighting are disabled in both previews.
 
 | Transparent borderless | Transparent |
-| :---: | :---: |
-| ![Transparent borderless side expansion, dark theme, tint and breathing lighting off](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-taskbar-borderless-dark.gif) | ![Transparent side expansion, dark theme, tint and breathing lighting off](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-taskbar-bordered-dark.gif) |
+| :--- | :--- |
+| ![Transparent borderless side expansion, dark theme, tint and breathing lighting off](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-taskbar-borderless-dark.gif) | ![Transparent side expansion, dark theme, tint and breathing lighting off](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-taskbar-bordered-dark.gif) |
 
 ## Layout previews
 
-| Layout / Material | Dark theme | Light theme |
-| :--- | :---: | :---: |
-| **Fullsize** · Liquid glass | ![liquid-glass-fullsize-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-fullsize-dark.gif) | ![liquid-glass-fullsize-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-fullsize-light.gif) |
-| **Fullsize** · Transparent borderless | ![transparent-borderless-fullsize-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-fullsize-dark.gif) | ![transparent-borderless-fullsize-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-fullsize-light.gif) |
-| **Compact** · Liquid glass | ![liquid-glass-compact-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-compact-dark.gif) | ![liquid-glass-compact-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-compact-light.gif) |
-| **Compact** · Transparent borderless | ![transparent-borderless-compact-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-compact-dark.gif) | ![transparent-borderless-compact-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-compact-light.gif) |
-| **Side expansion** · Liquid glass | ![liquid-glass-sideexpansion-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-sideexpansion-dark.gif) | ![liquid-glass-sideexpansion-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-sideexpansion-light.gif) |
-| **Side expansion** · Transparent borderless | ![transparent-borderless-sideexpansion-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-sideexpansion-dark.gif) | ![transparent-borderless-sideexpansion-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-sideexpansion-light.gif) |
-| **Side expansion · left vertical taskbar** · Liquid glass | ![liquid-glass-sideexpansion-left-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-sideexpansion-left-dark.gif) | ![liquid-glass-sideexpansion-left-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/liquid-glass-sideexpansion-left-light.gif) |
-| **Side expansion · left vertical taskbar** · Transparent borderless | ![transparent-borderless-sideexpansion-left-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-sideexpansion-left-dark.gif) | ![transparent-borderless-sideexpansion-left-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/transparent-borderless-sideexpansion-left-light.gif) |
+| Layout | Dark theme | Light theme |
+| :--- | :--- | :--- |
+| **Fullsize** · Glass | ![liquid-glass-fullsize-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-fullsize-dark.gif) | ![liquid-glass-fullsize-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-fullsize-light.gif) |
+| Borderless | ![transparent-borderless-fullsize-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-fullsize-dark.gif) | ![transparent-borderless-fullsize-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-fullsize-light.gif) |
+| **Compact** · Glass | ![liquid-glass-compact-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-compact-dark.gif) | ![liquid-glass-compact-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-compact-light.gif) |
+| Borderless | ![transparent-borderless-compact-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-compact-dark.gif) | ![transparent-borderless-compact-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-compact-light.gif) |
+| **Side** · Glass | ![liquid-glass-sideexpansion-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-sideexpansion-dark.gif) | ![liquid-glass-sideexpansion-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-sideexpansion-light.gif) |
+| Borderless | ![transparent-borderless-sideexpansion-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-sideexpansion-dark.gif) | ![transparent-borderless-sideexpansion-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-sideexpansion-light.gif) |
+| **Side (left)** · Glass | ![liquid-glass-sideexpansion-left-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-sideexpansion-left-dark.gif) | ![liquid-glass-sideexpansion-left-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/liquid-glass-sideexpansion-left-light.gif) |
+| Borderless | ![transparent-borderless-sideexpansion-left-dark](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-sideexpansion-left-dark.gif) | ![transparent-borderless-sideexpansion-left-light](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/layoutpreview/cropped-0.10.233/transparent-borderless-sideexpansion-left-light.gif) |
 
 ## What's new
 
@@ -76,16 +86,10 @@ lighting are disabled in both previews.
 > screen sharing to prevent the blur from capturing itself. Enable **Expanded
 > player capturable blurred backdrop** if it needs to appear in captures.
 
-## 网易云音乐兼容性 / NetEase Cloud Music compatibility
-
-网易云音乐的适配看来是个不小的问题。就我目前测试的情况而言，它没有通过 Windows 的系统媒体会话完整提供组件所需的信息，因此高清封面和播放进度都不方便直接获取。这里涉及的是 **系统媒体传输控件（SMTC）**，以及本组件用来读取媒体会话的 **GSMTC 接口**。目前我暂时还没有可靠的解决方案；如果有大佬了解这方面，请不吝赐教了 orz。
-
-NetEase Cloud Music compatibility is proving tricky. In my testing, it does not expose all the information this mod needs through Windows media sessions, making high-resolution artwork and playback progress difficult to retrieve directly. These sessions use **System Media Transport Controls (SMTC)**, and this mod reads them through **GSMTC**. I do not have a reliable solution yet—if you know a way to improve this integration, I would really appreciate your advice. orz
-
 ## Material previews
 
 | Material | Dark mode | Light mode |
-| :--- | :---: | :---: |
+| :--- | :--- | :--- |
 | **Mica-like** | ![Mica-like material in dark mode](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/materials/mica-dark.png) | ![Mica-like material in light mode](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/materials/mica-light.png) |
 | **Acrylic** | ![Acrylic material in dark mode](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/materials/acrylic-dark.png) | ![Acrylic material in light mode](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/materials/acrylic-light.png) |
 | **Liquid Glass** | ![Liquid Glass material in dark mode](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/materials/liquid-glass-dark.png) | ![Liquid Glass material in light mode](https://raw.githubusercontent.com/usho-lear/island-media-controls/main/previews/materials/liquid-glass-light.png) |

@@ -1,0 +1,164 @@
+[
+  {
+    "file": "liquid-glass-compact-dark.gif",
+    "width": 780,
+    "height": 420,
+    "seconds": "35.000000",
+    "frames": "864",
+    "bytes": 13573373,
+    "sha256": "d8464661e197d5e2d07bdbd34c9ed54d1ba7808a021fc0fc2d9600e15cc35708"
+  },
+  {
+    "file": "liquid-glass-compact-light.gif",
+    "width": 780,
+    "height": 420,
+    "seconds": "35.000000",
+    "frames": "864",
+    "bytes": 10822187,
+    "sha256": "ad6f925c29c6f82db54caa60cfb4dd936eec39e8440f8e31c22b360020b7ff41"
+  },
+  {
+    "file": "liquid-glass-fullsize-dark.gif",
+    "width": 720,
+    "height": 860,
+    "seconds": "35.000000",
+    "frames": "873",
+    "bytes": 26372115,
+    "sha256": "f870e29979164016b265608d52d3dd47c4a96eecf71d0c56735d69b4a923da0a"
+  },
+  {
+    "file": "liquid-glass-fullsize-light.gif",
+    "width": 720,
+    "height": 860,
+    "seconds": "35.000000",
+    "frames": "873",
+    "bytes": 24755776,
+    "sha256": "dda8519745f97d95c07babd6bf3040d0d9a0fe02e7077205f5592570c6a5feef"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-dark.gif",
+    "width": 720,
+    "height": 110,
+    "seconds": "35.000000",
+    "frames": "846",
+    "bytes": 3423274,
+    "sha256": "0021ee301e95c9011ef11723399eab364011823178d71da2dba6552beb393605"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-left-dark.gif",
+    "width": 320,
+    "height": 610,
+    "seconds": "35.000000",
+    "frames": "875",
+    "bytes": 3721423,
+    "sha256": "a6f50a6a911d6d6d48491244c91e680c48a2b70369a04745b83dbcd87cf36c2f"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-left-light.gif",
+    "width": 320,
+    "height": 610,
+    "seconds": "35.000000",
+    "frames": "875",
+    "bytes": 3436799,
+    "sha256": "30262e3ba3c43dc70cb34f4404db66fdf3c546c5a098455136c70cb61f364f31"
+  },
+  {
+    "file": "liquid-glass-sideexpansion-light.gif",
+    "width": 720,
+    "height": 110,
+    "seconds": "35.000000",
+    "frames": "802",
+    "bytes": 2405790,
+    "sha256": "992bb6ace60d728d8a1d8424ca56f6a1f6a271edfd200e84966cc99894db1d0a"
+  },
+  {
+    "file": "transparent-borderless-compact-dark.gif",
+    "width": 780,
+    "height": 420,
+    "seconds": "35.000000",
+    "frames": "869",
+    "bytes": 12775655,
+    "sha256": "e1c0240b5175b636b47cf45e48e755226fec027f5826df5b6aa328be23b27b98"
+  },
+  {
+    "file": "transparent-borderless-compact-light.gif",
+    "width": 780,
+    "height": 420,
+    "seconds": "35.000000",
+    "frames": "871",
+    "bytes": 10183470,
+    "sha256": "dfbe2d41c95efe62a64a9e5ef56303b97b56f4f3f170e6501adb14e1791e37e3"
+  },
+  {
+    "file": "transparent-borderless-fullsize-dark.gif",
+    "width": 720,
+    "height": 860,
+    "seconds": "35.000000",
+    "frames": "873",
+    "bytes": 25912569,
+    "sha256": "d7ea01afdcbb7f60603e3b9b0f04a8f10d3411cc9f90296eb12cec270732551d"
+  },
+  {
+    "file": "transparent-borderless-fullsize-light.gif",
+    "width": 720,
+    "height": 860,
+    "seconds": "35.000000",
+    "frames": "872",
+    "bytes": 25196772,
+    "sha256": "aebb78258dcda24234b13c41ba98a1d6528da0b7295abd60b48b824f35c70247"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-dark.gif",
+    "width": 720,
+    "height": 110,
+    "seconds": "35.000000",
+    "frames": "856",
+    "bytes": 3963082,
+    "sha256": "571f73c0a50adbe1337fc1d22838e94e5a3a3846d50489fc194582c9a6d77398"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-left-dark.gif",
+    "width": 320,
+    "height": 610,
+    "seconds": "35.000000",
+    "frames": "875",
+    "bytes": 3721464,
+    "sha256": "3b5e69d3b08dc7c7b006990c5550cda1729e3b863fd0aaf556284e1dcc6f5109"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-left-light.gif",
+    "width": 320,
+    "height": 610,
+    "seconds": "35.000000",
+    "frames": "875",
+    "bytes": 3469581,
+    "sha256": "3df2a91719d7818ac6d5116ebc26c23091d28f574eb519254f6380bc7bc4d0be"
+  },
+  {
+    "file": "transparent-borderless-sideexpansion-light.gif",
+    "width": 720,
+    "height": 110,
+    "seconds": "35.000000",
+    "frames": "844",
+    "bytes": 3152757,
+    "sha256": "71994351cb9c6fcc8692028cfbe21418b3c4d4a9008bb15170fbdefab1fcf92c"
+  },
+  {
+    "file": "transparent-taskbar-bordered-dark.gif",
+    "width": 720,
+    "height": 110,
+    "seconds": "35.000000",
+    "frames": "721",
+    "bytes": 2248446,
+    "sha256": "1f06402d4bd83d8b42a9cc70bd299d056fd8e3382c0fbe8ff155398503b39031"
+  },
+  {
+    "file": "transparent-taskbar-borderless-dark.gif",
+    "width": 720,
+    "height": 110,
+    "seconds": "35.000000",
+    "frames": "696",
+    "bytes": 1845567,
+    "sha256": "795a9bc41949d9f9e2c572e00a1017ec9082037d15cc2b0e863e7b529ed576d2"
+  }
+]
